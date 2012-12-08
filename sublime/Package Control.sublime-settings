@@ -1,0 +1,15 @@
+{
+	"auto_upgrade_last_run": 1352153906,
+	"installed_packages":
+	[
+		"Nodejs",
+		"Package Control",
+		"SideBarEnhancements",
+		"SublimeCodeIntel",
+		"Terminal"
+	],
+	"repositories":
+	[
+		"git://github.com/tanepiper/SublimeText-Nodejs"
+	]
+}
