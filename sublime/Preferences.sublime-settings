@@ -1,8 +1,19 @@
 {
-	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
 	"codeintel_syntax_map":
 	{
 		"JavaScript": "Node.js"
+	},
+	"tab_size": 4,
+	"todo":
+	{
+		"patterns":
+		{
+			"BUG": "BUG[\\s]*?:+(?P<bug>\\S.*)$",
+			"CHANGED": "CHANGED[\\s]*?:+(?P<changed>\\S.*)$",
+			"FIXME": "FIX ?ME[\\s]*?:+(?P<fixme>\\S.*)$",
+			"NOTE": "NOTE[\\s]*?:+(?P<note>.*)$",
+			"TODO": "TODO[\\s]*?:+(?P<todo>.*)$"
+		}
 	}
 }
