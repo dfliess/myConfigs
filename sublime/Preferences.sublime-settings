@@ -4,6 +4,10 @@
 	{
 		"JavaScript": "Node.js"
 	},
+	"ignored_packages":
+	[
+		"Vintage"
+	],
 	"tab_size": 4,
 	"todo":
 	{
