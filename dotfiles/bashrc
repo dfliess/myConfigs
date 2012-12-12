@@ -39,7 +39,8 @@ make_my_prompt
 
 export HISTCONTROL=ignoredups
 
-#https://github.com/afriggeri/jump.git
+. ~/z.sh
+
 #npm -g install jump
-#jump >> ~/.bash_profile  # or ~/.zshrc
-#source ~/.bash_profile
+#jump >> ~/.bash_profile && source ~/.bash_profile
+#jump
