@@ -17,13 +17,16 @@ export GREP_COLOR='1;33'
 #      . /opt/local/share/git-core/git-prompt.sh
 #fi
 
+function parse_git_dirty() {
+    [[ $(git status 2> /dev/null | tail -n1) != "nothing to commit, working directory clean" ]] && echo "*"
+}
 
 source ~/.colors
 function make_my_prompt {
     local user_and_host="\[${Yellow}\]\u@\h"
     local current_location="\[${Cyan}\]\w"
     local git_branch_color="\[${Green}\]"
-    local git_branch='`git branch 2> /dev/null | grep -e ^* | sed -E  s/^\\\\\*\ \(.+\)$/\(\\\\\1\)\ /`'
+    local git_branch='`git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e "s/* \(.*\)/\1$(parse_git_dirty)/"`'
     local current_time="\[${Red}\]\t"
     local last_color="\[${off}\]"
     local history_line="\[${Blue}\]\!"
