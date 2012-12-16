@@ -1,5 +1,5 @@
 # Load ~/.extra, ~/.bash_prompt, ~/.exports, ~/.aliases and ~/.functions
-for file in ~/.{color,exports,aliases,functions}; do
+for file in ~/.{colors,exports,aliases,functions}; do
     [ -r "$file" ] && source "$file"
 done
 unset file
