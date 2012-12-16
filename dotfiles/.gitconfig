@@ -1,0 +1,17 @@
+[user]
+	name = Diego Fliess
+  email = df@gmail.com
+[alias]
+  st = status
+  co = checkout
+  ci = commit
+  rb = rebase
+  br = branch
+  df = diff
+  lg = log --graph --name-status --oneline
+[color]
+   ui = true
+[core]
+	excludesfile = /Users/dfliess/.gitignore
+[push]
+	default = simple
