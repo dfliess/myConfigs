@@ -49,7 +49,7 @@ function make_my_prompt() {
     
     local prompt_tail="\[${off}\]\$"
 
-    export PS1="$(usernamehost) $current_location $git_branch_color$(parse_git_branch) $current_time \n$history_line $prompt_tail$last_color "
+    export PS1="$(usernamehost) $current_location $git_branch_color\$(parse_git_branch) $current_time \n$history_line $prompt_tail$last_color "
 
 }
 make_my_prompt
