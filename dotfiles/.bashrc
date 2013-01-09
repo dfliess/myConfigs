@@ -70,6 +70,10 @@ export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 
 . ~/z.sh
 
+#After upgrading to Mac OS Lion git push had some locale warnings
+export LC_CTYPE=en_US.UTF-8
+export LC_ALL=en_US.UTF-8
+
 #npm -g install jump
 #jump >> ~/.bash_profile && source ~/.bash_profile
 #jump
