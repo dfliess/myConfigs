@@ -3,9 +3,11 @@
 	"installed_packages":
 	[
 		"Alignment",
+		"Backbone.js",
+		"Edit History",
 		"Emmet",
-		"Git",
 		"Handlebars",
+		"Lazy Backbone.js",
 		"LESS",
 		"Package Control",
 		"Pretty JSON",
@@ -13,7 +15,6 @@
 		"SublimeCodeIntel",
 		"SublimeLinter",
 		"SublimeTODO",
-		"Tag",
 		"Terminal",
 		"Twitter Bootstrap Snippets"
 	],

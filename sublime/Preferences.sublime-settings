@@ -4,6 +4,7 @@
 	{
 		"JavaScript": "Node.js"
 	},
+	"font_size": 12.0,
 	"ignored_packages":
 	[
 		"Vintage"
