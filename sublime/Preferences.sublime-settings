@@ -1,5 +1,6 @@
 {
 	"auto_complete_with_fields": true,
+	"highlight_modified_tabs": true,
 	"codeintel_syntax_map":
 	{
 		"JavaScript": "Node.js"
