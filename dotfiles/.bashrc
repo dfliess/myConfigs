@@ -65,7 +65,7 @@ HISTTIMEFORMAT='%F %T '
 export HISTTIMEFORMAT
 
 # Make some commands not show up in history
-export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
+export HISTIGNORE="ls:cd:cd -:pwd;exit:date:* --help"
 
 
 . ~/z.sh
