@@ -30,11 +30,11 @@ git branch -d nuevafuncionalidad
 git reset --hard HEAD
 ```
 
-
 *Ver Log de acciones*
 ```
 git reflog
 ```
+
 *Volver hast a tal accion*
 ```
 git reset --hard [HEAD@{numero}]
