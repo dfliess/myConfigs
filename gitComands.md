@@ -35,7 +35,24 @@ git reset --hard HEAD
 git reflog
 ```
 
-*Volver hast a tal accion*
+*Volver hasta tal accion*
 ```
 git reset --hard [HEAD@{numero}]
 ```
+
+*Aplicar un "stash", congelar los cambios
+```
+git stash
+```
+
+*Listar los "stashes"
+```
+git stash list
+```
+
+*Aplicar los "stashes"
+quitar el ultimo parametro para aplicar todos.
+```
+git stash apply stash@{0}
+```
+
