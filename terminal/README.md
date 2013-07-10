@@ -1,3 +1,8 @@
+iterm2
+------
+
+cp com.googlecode.iterm2.plist ~/Library/Preferences/
+
 Monokai.terminal
 ----------------
 
