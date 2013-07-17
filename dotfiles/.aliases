@@ -25,4 +25,7 @@ for method in GET HEAD POST PUT DELETE TRACE OPTIONS; do
 done
 
 # Sublime Text Editor
-alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin//subl"
+#alias subl="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin//subl"
+#its recomended to do:
+#sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /opt/local/bin/subl
+export EDITOR='subl -w'
